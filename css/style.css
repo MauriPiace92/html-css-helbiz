@@ -5,8 +5,12 @@ body{
 
 .little-wrapper{
     max-width: 900px;
-    margin: 0 auto;
+    margin: auto;
     padding: 20px;
+}
+
+img{
+    max-width: 100%;
 }
 
 
@@ -17,6 +21,11 @@ body{
     text-transform: uppercase;
     font-size: 12px;
 }
+
+.top-header a:hover{
+    text-decoration: underline;
+}
+
 .top-header li{
     display: inline-block;
     margin-left: 5px;
@@ -36,7 +45,7 @@ body{
     line-height: 18px;
 }
 
-header .burger-menu{
+.burger-menu{
     font-weight: 25px;
     text-align: right;
 }
@@ -44,7 +53,7 @@ header .burger-menu{
 /* jumbotron */
 .jumbotron{
     background-image: url("../img/hero-bg.jpg");
-    height: 550px;
+    height: 600px;
     background-size: cover;
     position: relative;
 }
@@ -63,3 +72,72 @@ header .burger-menu{
     margin-top: 15px;
 
 }
+
+/* MAIN */
+/* section produts */
+#products{
+    padding: 20px 0;
+}
+
+.col_inner{
+    padding: 20px;
+}
+
+.col_content{
+    padding:20px;
+}
+
+.col_content{
+    text-align: center;
+    background-color: #fafafa;
+}
+
+.col_content h3{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.col_content p{
+    font-size:26px;
+    margin-bottom: 10px;
+}
+
+.col_content a{
+    color: #0070c8;
+    font-size: 26px;
+    text-decoration:none;
+}
+/* End Section products */
+
+/* section Phone */
+#phone{
+    background-image: url("../img/HelbizBanner.jpg");
+    height: 500px;
+}
+
+#phone img{
+    height: 650px;
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 200px
+}
+
+#underphone{
+    text-align: center;
+    padding: 70px 0;
+}
+#underphone h3{
+    font-size: 30px;
+}
+
+#underphone h6{
+    font-size: 20px;   
+}
+
+@media screen and (max-width:991px){
+    #underphone h6,p{
+        margin-top:10px;   
+    }
+}
+
