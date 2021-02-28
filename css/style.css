@@ -85,9 +85,6 @@ img{
 
 .col_content{
     padding:20px;
-}
-
-.col_content{
     text-align: center;
     background-color: #fafafa;
 }
@@ -120,7 +117,7 @@ img{
     display: block;
     margin: auto;
     position: relative;
-    top: 200px
+    top: 150px
 }
 
 #underphone{
@@ -136,8 +133,84 @@ img{
 }
 
 @media screen and (max-width:991px){
-    #underphone h6,p{
-        margin-top:10px;   
+    #underphone {
+        margin-top:320pxpx;   
     }
 }
 
+.images{
+    margin-top: 200px;
+}
+
+.box_content{
+    position: relative;
+    height: 350px;
+    background-image: url("../img/ScooterHelbiz-2400.jpg");
+    background-size: cover;
+    margin-bottom: 40px;
+}
+
+.text{
+    position:absolute;
+    top: 50px;
+    right: 100px;
+    text-align: center;
+    color: white;
+    width: 30%; 
+}
+
+.text h2{
+    font-size: 41px;
+}
+
+.text p{
+    margin: 20px 0;
+}
+
+.text a{
+    text-decoration: none;
+    color:white;
+}
+
+.inner_lefter{
+    padding-right: 20px;
+}
+.content_lefter{
+    padding-right:20px;
+    padding-bottom:20px;
+}
+
+.lefter{
+    height: 350px;
+    background-image: linear-gradient(#41566a, #252e38);
+    text-align: center;
+    color:white;
+    padding : 20px;
+    overflow: hidden;
+}
+.lefter p{
+    margin: 10px 0;
+}
+
+.lefter a{
+    text-decoration: none;
+    color: White;
+}
+
+.righter{
+    height: 350px;
+    background-image: url("../img/cities-1500.jpg");
+    background-size: cover;
+    text-align: center;
+    color:white;
+    padding : 20px;
+}
+
+.righter p{
+    margin: 10px 0;
+}
+
+.righter a{
+    text-decoration: none;
+    color: White;
+}
