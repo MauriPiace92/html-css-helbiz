@@ -4,7 +4,7 @@ body{
 }
 
 .little-wrapper{
-    max-width: 900px;
+    max-width: 930px;
     margin: auto;
     padding: 20px;
 }
@@ -46,8 +46,7 @@ img{
 }
 
 .burger-menu{
-    font-weight: 25px;
-    text-align: right;
+    font-weight: 30px;
 }
 
 /* jumbotron */
